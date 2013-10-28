@@ -1,0 +1,296 @@
+	*{padding: 0; margin: 0;}
+	td {
+		padding:5px;
+		font-size: 12px;
+	}
+	th {
+		padding:5px;
+		font-size: 12px;
+	}
+	p {
+		margin-bottom:20px;
+		line-height:15px;
+	}
+	td p {
+		padding:0px;
+		margin:0px;
+	}
+	#headtable {
+		border:1px solid #999999;
+		padding:5px;
+		margin:2px;
+		text-align:center;
+	}
+	a:link {
+		text-decoration: none;
+		color: #3d69c4;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:visited {
+		text-decoration: none;
+		color: #3d69c4;
+	}
+	a:active {
+		text-decoration: none;
+		color: #3d69c4;
+	}
+	/* General Style */
+	#Header {
+		text-align:left;
+		padding-top:8px;
+		padding-left:50px;
+	}
+	#Header h1 {
+		margin:0px;
+		margin-bottom:17px;
+		margin-top:40px;
+		font-size: 16px;
+		text-transform: uppercase;
+		color:#FFFFFF;
+	}
+	#Footer {
+		text-align:left;
+		padding-top:8px;
+		padding-bottom:15px;
+		text-align:center;
+		color:#DDD;
+	}
+	#general {
+		background-color:#FFF;
+		padding:25px;
+		border-top:1px solid #7ab3db;
+	}
+	#general h2 {
+		font-size: 16px;
+		margin:15 0 5 20;
+	}
+	#general h3 {
+		font-size: 14px;
+		padding:15 0 5 0;
+	}
+	/* Form Style */
+	input,textarea {
+		font-size: 12px;
+		padding:2px;
+		font-family: Arial,Helvetica,sans-serif;
+		border:1px solid #BBB;
+	}
+	select {
+		font-size: 12px;
+		padding:2px;
+		border:1px solid #BBB;
+	}
+	#label {
+		padding:10px;
+		background-color:#EEE;
+	}
+	#field {
+		padding:10px;
+		background-color:#FFF;
+	}
+	#formhead {
+		text-align:center;
+		font-weight:bold;
+		background-color:#DDD;
+		padding:10px;
+	}
+	#formback {
+		text-align:left;
+		margin-left:20px;
+	}
+	/* Article Style */
+	#articlemap {
+		margin-left:50px;
+		padding-bottom:20px;
+		color:#407fff;
+	}
+	#articleborder {
+		width:85%;
+		min-height:120px;
+		margin-left:50px;
+		margin-bottom:10px;
+		padding-bottom:10px;
+	}
+	#articleborder img {
+		margin:0px 10px 10px 0px;
+		border:1px solid #3e70d5;
+	}
+	#articleborder h2 {
+		margin: 0px;
+		color: #3e70d5;
+		text-transform: capitalize;
+		font-size: 16px;
+	}
+	#articleborder h5 {
+		margin:0px;
+		color: #3e5585;
+		margin-bottom:12px;
+	}
+	#articlecontent {
+		margin-top:5px;
+	}
+	#articlepage {
+		width:85%;
+		margin-left:50px;
+		margin-bottom:10px;
+		padding-bottom:10px;
+	}
+	/* menu styles */
+	#jsddm {	
+		margin: 0px;
+		padding: 0px 0px 24px 0px;
+	}
+	#jsddm li {	
+		float: left;
+		margin-left:5px;
+		list-style: none;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	#jsddm li a {	
+		display: block;
+		background: url("../content/images/tintblue.gif") repeat-x;
+		padding: 5px 12px;
+		text-decoration: none;
+		border: 1px solid #7ab3db;
+		border-bottom: 0px;
+		color: #11409f;
+		white-space: nowrap;
+	}
+	#jsddm li a:hover {
+		background: url("../content/images/tintbluedark.gif") repeat-x;
+	}
+	#jsddm li ul {	
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		visibility: hidden;
+		border-top: 1px solid white;
+		border-bottom: 1px solid #7ab3db;
+	}
+	#jsddm li ul li {	
+		float: none;
+		display: inline
+	}
+	#jsddm li ul li a {	
+		width: auto;
+		background: #bbe3ff;
+		color: #24313C;
+	}
+	#jsddm li ul li a:hover {
+		background: #68baf3;
+	}
+	/* comment list */
+	#commentbox {
+		border:1px solid #000000; 
+		padding:8px; 
+		max-width:400px; 
+		margin:0px 0px 20px 0px;
+	}
+	#commentbox #date {
+		font-size:10px;
+		margin-bottom:4px;
+	}
+	#commentbox h4 {
+		font-size:14px;
+		text-transform: capitalize;
+	}
+	/* Side */
+	#side {
+		width:100%;
+		border:1px solid #4c88cd;
+		border-bottom:0px;
+		background-color:#a2d9ff;
+		margin-left:15px;
+		margin-bottom:20px;
+	}
+	#side h3 {
+		border-bottom:1px solid #4c88cd;
+		background-color:#4c88cd;
+		color:#FFF;
+		padding:5px;
+		margin:0px;
+		font-size:12px;
+	}
+	#side li {
+		border-bottom:1px solid #4c88cd;
+		padding:5px;
+		margin:0px;
+		list-style-type: none;
+	}
+	/* Task */
+	#taskbox {
+		width:100%;
+		border:1px solid #CCC;
+		text-align:left;
+		margin-bottom:10px;
+	}
+	#taskbox h3 {
+		font-size:12px;
+		margin:0px 0px 0px 0px; 
+		padding:5px 5px 5px 20px; 
+	}
+	#taskbox #taskcolomn {
+		float:left;
+		width:50%;
+	}
+	#taskbox #taskrow {
+		font-size:11px;
+		margin:0px; 
+		padding:5px;
+	}
+	#taskbox #taskrow #tasklabel {
+		float:left; 
+		width:100px;
+		text-align:right; 
+		font-weight:bold;
+		margin-right:10px;
+	}
+	#taskbox #taskrow p {
+		margin-bottom:4px;
+		line-height:14px;
+	}
+	#taskmargin {
+		font-size:14px;
+		border:1px solid #CCC; 
+		background-color:#addbfb;
+		margin-bottom:4px;
+		padding:10px;
+	}
+	#taskmargin1 {
+		font-size:12px;
+		border:1px solid #CCC; 
+		background-color:#c8deed;
+		margin-bottom:4px;
+		padding:6px;
+	}
+	/* Search */
+	#formsearch div {
+		padding:0px;
+		margin:0px;
+	}
+	#formsearch #label {
+		padding:5px;
+		margin-right:20px;
+		background-color:#FFF;
+		float:left;
+		width:200px;
+	}
+	#formsearch #field {
+		padding:5px;
+		background-color:#FFF;
+		text-align:left;
+	}
+	/* Excel */
+	#headtable #hlabel {
+		text-align:right; 
+		float:left; 
+		margin-right:10px; 
+		width:30%;
+	}
+	#headtable #hvalue {
+		text-align:left; 
+		width:70%;
+	}
+	
